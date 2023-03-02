@@ -1,0 +1,183 @@
+*{
+	margin: auto;
+	padding: 0;
+	
+
+
+}
+/*========================  STAART HEADER ======================= */
+header{ 
+	height: 70px;
+	width: 1365px;
+	background-image:linear-gradient(to right, rgba(255,255,255,.9),rgba(255,255,255,.8),rgba(255,255,255,7),rgba(255,255,255,1),rgba(255,255,255,.2),rgba(1,129,54,.9), rgba(1,129,54,2)),url(../img/xtra.jpg);
+	border-bottom: #008c44 solid 2px;
+	margin: auto;
+	background-size: auto;
+}
+
+.list1,.list2,.list3{
+	display: inline-block;
+}
+.list1,.list2{
+	float: left;
+
+}
+.list3{
+
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.list2{
+	margin-left: -125px;
+	margin-top: 2px;
+	text-shadow: -1px -1px white,
+				 -1px  1px white,
+				  1px -1px white,
+				  1px  1px white;
+}
+.olfu_logo{
+	height: 60px;
+	width: 30%;
+	margin-top: 3px;
+	margin-left: 20px;
+
+}
+#fatima_text{
+	color :#008c44;
+	font-weight: bold;
+	
+	
+	
+}
+.mis{
+	color:white;
+
+
+
+
+}
+
+/*========================  END HEADER ======================= */
+
+/*========================   START BACKGROUND ======================= */
+.background{
+	background-image: url("../img/olfu1.png");
+	background-size: cover;
+	width:100%;;
+	height: 88.5vh;
+	background-repeat: no-repeat ;
+	overflow: hidden;
+
+
+
+}
+
+/*========================   END BACKGROUND ======================= */
+/*========================  START FORM ======================= */
+form{
+	background-image: linear-gradient(to right,rgba(1,129,54,9),rgba(1,129,54,.9),rgba(1,129,54,.9),rgba(1,129,54,.9),rgba(1,129,54,.9),rgba(1,129,54,.9),rgba(1,129,54,.9), rgba(1,129,54,.9), rgba(1,129,54,.9),rgba(1,129,54,.9), rgba(1,129,54,.9), white,white,white,white,white,white,white,white,white,white,white,white);
+	width: 470px;
+	height: 300px;
+	
+	margin-top:7%;
+	border-radius: 10px;
+
+
+	
+
+}
+td{
+	color: white;
+	font-weight: bold;
+}
+
+h6{
+	color:#018136;
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+
+
+}
+h5{
+	font-size: 30px;
+	color:white;
+	text-transform: uppercase;
+}
+.input, .logo_title{
+	float: left;
+	width: 235px;
+	
+}
+.input{
+		padding-top: 50px;
+}
+.logo_title{
+	text-align: center;
+}
+.log{
+	color: gray;
+}
+
+.log_logo{
+	height: 100px;
+	width: 45%;
+	padding-top: 55px;
+	
+}
+
+
+i{
+	color:#018136;
+
+}
+
+#username, #password {
+	width: 80%;
+	height: 30px;
+	font-weight: bold;
+	color:black;
+	margin-top: -50px;
+
+}
+#btn{
+	width: 95%;
+	height: 30px;
+	margin-top: 10px;
+	background-color:#018136;
+	border-radius: 10px;
+	font-family: tahoma;
+	font-weight: bold;
+	color:white;
+
+}
+
+::placeholder{
+	color: #4b4f56;
+	
+
+}
+input:focus{
+	outline-color: #018136;
+}
+#btn:hover{
+	cursor: pointer;
+}
+input{
+
+
+
+}
+.rgba{
+	
+	width: 100%;
+	height: 90vh;
+	overflow: hidden;
+	background-color:rgba(0,0,0,.5);
+
+	
+
+}
+/*========================  END FORM ======================= */
